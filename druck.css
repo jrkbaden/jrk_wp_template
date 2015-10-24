@@ -1,0 +1,435 @@
+page {
+	size: 21.0cm 14.85cm;
+	margin: 3.7cm 2cm 1.4cm 1cm;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+html, body, hr, td, div, img, form, fieldset, input, select, textarea, label {
+	margin: 0px;
+	padding: 0px;
+}
+div {
+	display: block;
+}
+label {
+	display: block;
+}
+img, fieldset {
+	border: 0px;
+}
+input, select, textarea {
+	border: 1px solid #333333;
+	background-color: #FFFFFF;
+}
+select {
+	width: 163px;
+	height: 19px;
+	float: left;
+}
+/** Textformatierung **/
+div, table, label, h1, h2, h3, h4, p, a, ul, li {
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: left;
+}
+h1 {
+	color: #333333;
+	font-size: 20px;
+	line-height: 22px;
+}
+h2 {
+	color: #333333;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-bottom: 13px;
+}
+h2 a {
+	color: #333333;
+	font-weight: bold;
+	line-height: 14px;
+}
+h3 {
+	font-size: 14px;
+	line-height: 20px;
+}
+p {
+	line-height: 15px;
+}
+ul {
+	list-style: none;
+}
+br {
+	line-height: 6px;
+}
+a {
+	line-height: 15px;
+	text-align: left;
+	text-decoration: underline;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: underline;
+}
+.rot, .gruen, .grau {
+	color: #000000;
+}
+/** Aufbau **/
+.oben, .mitte, .unten {
+	margin: 0px auto;
+}
+.oben {
+	display: none;
+}
+.mitte {
+	height: auto;
+}
+.unten {
+	height: 80px;
+}
+.links {
+	float: left;
+}
+.rechts {
+	float: right;
+}
+.cleaner {
+	width: 97%;
+	height: 2px;
+	font-size: 1px;
+	line-height: 0px;
+	clear: both;
+}
+/** Content **/
+.content_oben {
+	display: none;
+}
+.content_links {
+	display: none;
+}
+.content_mitte {
+	width: 100%;
+}
+.content_mitte_oben {
+	width: 100%;
+}
+.content_mitte_links {
+	width: 362px;
+	float: left;
+}
+.content_mitte_rechts {
+	width: 362px;
+	float: right;
+}
+.content_rechts {
+	display: none;
+}
+.unten div.content_mitte {
+	padding-top: 2px;
+}
+.unten .content_links {
+	height: 0px;
+}
+/** Startseite Ueberschrift **/
+h1.csc-firstHeader {
+	display: none;
+}
+/** Link nach oben **/
+.csc-linkToTop {
+	text-align: right;
+	height: 22px;
+	line-height: 22px;
+	margin-bottom: 5px;
+	border-bottom: 1px dashed #000000;
+	clear: both;
+}
+.csc-linkToTop a {
+	display: none;
+}
+/** Sprungmarken Textnavigation **/
+.csc-menu-3 {
+	width: 100%;
+	display: block;
+	margin-bottom: 15px;
+	border: 0px;
+	border-bottom: 1px dashed #000000;
+	clear: both;
+}
+.csc-menu-3 ul {
+	margin-left: 0px;
+}
+.csc-menu-3 li {
+	margin-bottom: 5px;
+	text-decoration: underline;
+	list-style: none;
+}
+/** Textabsatz **/
+.bodytext {
+	margin-bottom: 15px;
+}
+/** Suchergebnisseite **/
+.tx_indexedsearch {
+	margin: 0px;
+	padding: 0px;
+}
+.tx-indexedsearch-searchbox {
+	margin-bottom: 15px;
+}
+.tx-indexedsearch-searchbox td {
+	padding: 2px;
+}
+.tx-indexedsearch-searchbox input {
+	height: 22px;
+	padding: 2px 3px;
+	float: left;
+}
+.tx-indexedsearch-searchbox select {
+	border: solid 1px;
+}
+.tx-indexedsearch-searchbox option {
+	margin: 0px;
+	padding: 0px;
+}
+.tx-indexedsearch-searchbox-button {
+	width: 100px;
+	margin-top: 5px;
+	text-align: center;
+	cursor: pointer;
+	float: right;
+}
+.tx-indexedsearch-rules {
+	margin-bottom: 15px;
+}
+.tx-indexedsearch-rules h2 {
+	margin-bottom: 0px;
+	font-size: 12px;
+}
+.tx-indexedsearch-browsebox {
+	margin-bottom: 15px;
+	text-align: right;
+}
+.tx-indexedsearch-res {
+	margin-bottom: 15px;
+}
+/** Text mit Bild **/
+.csc-textpicHeader h2 {
+	margin-bottom: 13px;
+}
+.csc-textpic-caption {
+	padding: 8px 9px 8px 11px;
+	color: #FFFFFF;
+	font-size: 11px;
+	line-height: 14px;
+	background: none;
+}
+.csc-textpic-clear {
+	height: 15px;
+}
+/** Themenbox (Teaser) **/
+.themenbox {
+	width: 350px;
+	min-height: 125px!important;
+	margin: 0px 0px 20px 0px;
+	padding-right: 10px;
+	border: 1px solid #666666;
+}
+.themenbox h2 {
+	margin: 0px;
+	padding: 10px 0px 5px 0px;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+}
+.themenbox .bild {
+	width: 117px;
+	height: 82px;
+	margin: 10px 10px 25px 0px;
+	padding-left: 15px;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+}
+.themenbox .bodytext {
+	margin: 0px;
+	font-size: 11px;
+}
+/** Downloadbox (Rahmen 1) **/
+.csc-frame-frame1 {
+	width: 370px;
+	margin-bottom: 16px;
+	padding-bottom: 27px;
+	border: 1px solid #666666;
+}
+.csc-frame-frame1 table {
+	margin: 0px 4px 16px 6px;
+	background: none;
+}
+.csc-frame-frame1 p.bodytext {
+	margin: 0px 4px 16px 6px;
+	display: block;
+	padding-left: 30px;
+	padding-right: 10px;
+	background: none;
+}
+.csc-frame-frame1 h1, .csc-frame-frame1 h2, .csc-frame-frame1 h3, .csc-frame-frame1 h4, .csc-frame-frame1 h5 {
+	margin: 0px;
+	padding: 25px 7px 7px 35px;
+	font-size: 12px;
+	line-height: 15px;
+}
+/** breiter Swoosh (Rahmen 2) **/
+.csc-frame-frame2 {
+	width: 755px;
+	margin-bottom: 30px;
+	border: 1px solid #666666;
+}
+.csc-frame-frame2 p.bodytext {
+	width: 700px;
+	padding: 0px 0px 35px 30px;
+	margin: 0px;
+}
+.csc-frame-frame2 h1, .csc-frame-frame2 h2, .csc-frame-frame2 h3, .csc-frame-frame2 h4, .csc-frame-frame2 h5 {
+	width: 99%;
+	padding: 30px 0px 0px 30px;
+	line-height: 20px;
+}
+.csc-frame-frame2 h2 {
+	margin-bottom: 7px;
+}
+.csc-frame-frame2 h3 {
+	margin-bottom: 2px;
+}
+.csc-frame-frame2 h4 {
+	margin-bottom: 1px;
+}
+/** Kontakt **/
+#mailform fieldset {
+	width: 390px;
+	margin: 0px;
+	padding: 0px;
+}
+#mailform label {
+	width: 80px;
+	height: 19px;
+	margin-top: 3px;
+	float: left;
+}
+#mailform input, textarea {
+	width: 308px;
+	margin-bottom: 10px;
+	background: none;
+	float: right;
+}
+#mailform input {
+	height: 22px;
+	padding: 2px 3px;
+}
+#mailform textarea {
+	padding: 3px;
+}
+#mailform .csc-mailform-submit {
+	width: 100px;
+	margin-top: 5px;
+	text-align: center;
+	cursor: pointer;
+	float: right;
+}
+#mailform .csc-mailform-field {
+	clear: both;
+}
+/** Tell a Friend **/
+#tipform fieldset {
+	width: 480px;
+	margin: 0px;
+	padding: 0px;
+}
+#tipform label {
+	width: 170px;
+	height: 19px;
+	margin-top: 3px;
+	float: left;
+}
+#tipform input, textarea {
+	width: 308px;
+	margin-bottom: 10px;
+	background: none;
+	float: right;
+}
+#tipform input {
+	width: 298px;
+	height: 22px;
+	float: left;
+	padding: 2px 3px;
+}
+#tipform textarea {
+	width: 298px;
+	padding: 3px;
+	float: left;
+}
+#tipform .csc-mailform-submit {
+	width: 100px;
+	margin-top: 5px;
+	text-align: center;
+	cursor: pointer;
+	float: right;
+}
+#tipform .csc-mailform-field {
+	clear: both;
+}
+#tipform .captcha {
+	width: 150px;
+	height: 25px;
+	margin-left: 2px;
+	float: left;
+}
+#tipform p {
+	margin-bottom: 10px;
+}
+#captcha {
+	margin-bottom: 10px;
+}
+.captcha_notice {
+	width: 170px;
+	margin-top: 3px;
+	float: left;
+}
+.tx-srfreecap-pi2-image {
+	width: 300px;
+	margin: 0px;
+}
+/** Media-File-List **/
+.csc-frame-frame1 .tx-mmdamfilelist-pi1-listrow {
+	margin: 0px 4px 16px 6px;
+	padding-left: 30px;
+	padding-right: 10px;
+	display: block;
+}
+.csc-frame-frame1 dl {
+	margin-top: 0px;
+}
+/** Fakelink **/
+.fakelink {
+	padding: 0px;
+	border: 0px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+/** Sonstiges **/
+a.drucken, a.empfehlen {
+	display: none;
+}
+p.copyright {
+	display: block;
+	clear: both;
+}
+a.copyright, a.copyright:focus, a.copyright:hover {
+	text-decoration: none;
+}

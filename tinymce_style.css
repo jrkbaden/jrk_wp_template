@@ -1,0 +1,65 @@
+/*
+Theme Name: JRK Corporate Design
+Description: Jugendrotkreuz Corporate Design
+Version: 1.0
+Author: Sascha Schnetz
+Author URI: www.awaits.eu
+*/
+
+@import url( 'style.css' );
+@import url( 'text.css' );
+
+/**************
+***ALLGEMEIN***
+**************/
+
+body#tinymce.wp-editor { 
+	font-family: Arial, Helvetica, sans-serif; 
+	margin: 10px; 
+	background-color: #EBF6F7;
+}
+
+body#tinymce.wp-editor h1{
+	color:#00909B; 
+	font-weight:bold; 
+	line-height:20px;
+	margin: 20px 0;
+	font-size: 1.6em;
+}
+
+body#tinymce.wp-editor h2{	
+	color:#00909B; 
+	font-weight:bold; 
+	line-height:20px;
+	margin: 20px 0;
+	font-size: 1.4em;
+}
+
+body#tinymce.wp-editor h3, body#tinymce.wp-editor h4{
+	color:#00909B; 
+	font-weight:bold; 
+	line-height:20px;
+	margin: 20px 0;
+	font-size: 1.2em;
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	clear: both;
+	padding: 10px 0;
+}
+
+
+body#tinymce.wp-editor .gallery-item{
+	width: 33% !important;
+}
+
+body#tinymce.wp-editor .wp-caption-dd{
+	padding: 8px 9px 8px 11px;
+	max-width: 100%;
+	color: #FFFFFF;
+	font-size: 11px;
+	line-height: 14px;
+	background-color: #00909B;
+}
