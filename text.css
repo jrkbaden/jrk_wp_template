@@ -1,0 +1,147 @@
+/** Textformatierung **/
+div, table, label, h1, h2, h3, h4, p, a, ul, li {
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: #00909B;
+}
+
+h1 {
+  font-size: 1.6em;
+  margin: 20px 0;
+  line-height: 22px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+h3, h4 {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1em;
+}
+
+p, a, ul {
+	line-height: 15px;
+}
+ul {
+	margin-left: 15px;
+}
+li {
+	list-style-position: outside;
+}
+br {
+	line-height: 6px;
+}
+a {
+	color: #00909B;
+	text-decoration: underline;
+	text-align: left;
+	cursor: pointer;
+}
+a:focus {
+	color: #F29400;
+	text-decoration: underline;
+}
+a:hover {
+	color: #F29400;
+	text-decoration: underline;
+}
+.rot {
+	color: #E2001A;
+}
+.gruen {
+	color: #00909B;
+}
+.grau {
+	color: #CCCCCC;
+}
+/***** TEXT GROSS *****/
+.gross div, .gross table, .gross label, .gross h3, .gross h4, .gross p, .gross a, .gross ul, .gross li {
+	font-size: 0.9rem;
+}
+/***** KONTRAST *****/
+.kontrast h2 {
+	color: #000000;
+}
+.kontrast h3 {
+	color: #000000;
+}
+.kontrast a {
+	color: #01717D;
+}
+.kontrast a:focus {
+	color: #F29400;
+}
+.kontrast a:hover {
+	color: #F29400;
+}
+
+
+.gross .tx-indexedsearch-rules h2 {
+  font-size: 1.4em;
+}
+
+.gross .csc-frame-frame1 h1,
+.gross .csc-frame-frame1 h2,
+.gross .csc-frame-frame1 h3,
+.gross .csc-frame-frame1 h4,
+.gross .csc-frame-frame1 h5 {
+  font-size: 1.3em!important;
+}
+
+.gross .themenbox .bodytext {
+  font-size: 2em!important;
+}
+
+.gross .themenbox h2 {
+  padding-bottom: 2px;
+  font-size: 1.2em;
+  line-height: 16px;
+}
+
+.kontrast input,
+.kontrast select,
+.kontrast textarea {
+  border-color: #007C86;
+}
+
+.kontrast .csc-frame-frame1 {
+  width: 368px;
+  border: 1px solid #007C86;
+  background: none;
+}
+
+.kontrast .csc-frame-frame2 {
+  border: 1px solid #007C86;
+  background: none;
+}
+
+.kontrast .csc-textpic-caption {
+  background-color: #01717D;
+}
+
+.kontrast .themenbox {
+  width: 348px;
+  border: 1px solid #007C86;
+  background: none;
+}
+
+.kontrast #menu1 a {
+  color: #666;
+}
+
+.kontrast #menu2 a {
+  background-color: #007C86;
+}
