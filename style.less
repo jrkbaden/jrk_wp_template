@@ -1,25 +1,4 @@
-/*
-Theme Name: JRK Corporate Design
-Description: Jugendrotkreuz Corporate Design
-Version: 1.02
-Author: Sascha Schnetz
-Author URI: www.awaits.eu
-*/
-
-
-@petrol: #00909B;
-@petrol-mittel: #7FB9BD;
-@petrol-dunkel: #007C86;
-@petrol-hell: #E1F1F1;
-
-@sekundaerorange: #E7B16B;
-@orange-dunkel: D78400;
-@orange-hell: FFEBD2;
-
-@basisfarbe: (@petrol);
-@hintergrundfarbe: (@petrol-hell);
-@dunklefarbe: (@petrol-dunkel);
-@speciallinkfarbe: (@sekundaerorange);
+@import (once) "themedefinition.less";
 
 html, body, hr, td, div, img, form, fieldset, input,
 select, textarea, label, .tx_indexedsearch, .tx-indexedsearch-searchbox option {
@@ -71,7 +50,7 @@ select {
 #TB_window .screen-reader-text,
 .search-results .desktop_submenu,
 .search-no-results .desktop_submenu,
-.error404 .desktop_submenu{
+.error404 .desktop_submenu {
   display: none;
 }
 
@@ -195,7 +174,7 @@ select {
   margin: 0;
 }
 
-.csc-textpic-imagewrap{
+.csc-textpic-imagewrap {
   width: auto;
   float: left;
   margin-right: 40px;
@@ -221,13 +200,13 @@ select {
 }
 
 #menu1 ul li,
-.footer_navi ul li{
+.footer_navi ul li {
   list-style-type: none;
   display: inline;
 }
 
 #menu1 a,
-.footer_navi a{
+.footer_navi a {
   color: #999;
   text-decoration: none;
   line-height: 18px;
@@ -239,13 +218,12 @@ select {
 .footer_navi a:hover {
   color: #333;
 }
-
-#menu1>div>ul li:nth-child(1):after,
-#menu1>div>ul li:nth-child(2):after,
-#menu1>div>ul li:nth-child(3):after,
-.footer_navi>div>ul li:nth-child(1):after,
-.footer_navi>div>ul li:nth-child(2):after,
-.footer_navi>div>ul li:nth-child(3):after {
+#menu1 > div > ul li:nth-child(1):after,
+#menu1 > div > ul li:nth-child(2):after,
+#menu1 > div > ul li:nth-child(3):after,
+.footer_navi > div > ul li:nth-child(1):after,
+.footer_navi > div > ul li:nth-child(2):after,
+.footer_navi > div > ul li:nth-child(3):after {
   content: " |";
 }
 
@@ -275,13 +253,13 @@ select {
 #menu2 a:focus,
 #menu2 a:hover,
 #menu2 a:active {
-  background-color: (@dunklefarbe);
+  background-color: (@menu2link);
 }
 
 #meinjrk a:link,
 #meinjrk a:visited {
   margin-left: 2px;
-  background-color: #f29400 !important;
+  background-color: (@speciallinkfarbe) !important;
 }
 
 #meinjrk a:focus,
@@ -291,8 +269,7 @@ select {
   text-decoration: none;
   background-color: #E74C13;
 }
-
-#menu2>div>ul {
+#menu2 > div > ul {
   position: relative;
   top: 10px;
   width: 100%;
@@ -306,23 +283,20 @@ select {
   right: 0;
   top: 32px;
 }
-
-#menu2>div:first-child {
+#menu2 > div:first-child {
   margin-left: 107px;
   margin-right: 0px;
 }
-
-#menu2>div>ul li a,
+#menu2 > div > ul li a,
 #meinjrk a {
   height: 20px;
   margin-bottom: 1px;
   padding: 7px 5px 2px;
 }
-
-#menu2>div>ul .current-menu-item a,
-#menu2>div>ul .current_page_ancestor a {
+#menu2 > div > ul .current-menu-item a,
+#menu2 > div > ul .current_page_ancestor a {
   color: #FFF;
-  background-color: (@dunklefarbe)!important;
+  background-color: (@menu2link)!important;
 }
 
 #menu2>div>ul li,
@@ -333,7 +307,7 @@ select {
 }
 
 #menu2 > div > ul > li:last-child > a {
-  background-color: #F29400;
+  background-color: (@speciallinkfarbe);
 }
 
 
@@ -386,8 +360,7 @@ select {
 .desktop_submenu li a:hover {
   color: #EFCF9E;
 }
-
-.sub-menu .csc-textpic-text>p:first-child {
+.sub-menu .csc-textpic-text > p:first-child {
   font-weight: 700;
   margin-bottom: 1em;
 }

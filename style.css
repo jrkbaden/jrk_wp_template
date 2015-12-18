@@ -1,5 +1,5 @@
 /*
-Theme Name: JRK Corporate Design
+Theme Name: JRK Corporate Design orange
 Description: Jugendrotkreuz Corporate Design
 Version: 1.02
 Author: Sascha Schnetz
@@ -81,14 +81,14 @@ select {
 }
 .mitte {
   height: auto;
-  background-color: #E1F1F1;
+  background-color: #FFEBD2;
   position: relative;
   min-height: 300px;
   padding: 20px 0 5px;
 }
 .unten {
   height: 80px;
-  background: url(pics/hg_unten.jpg) #E1F1F1 bottom center no-repeat;
+  background: url(pics/hg_unten.jpg) #FFEBD2 bottom center no-repeat;
 }
 .cleaner {
   width: 97%;
@@ -225,17 +225,17 @@ select {
   text-align: center;
   float: left;
   text-decoration: none;
-  background-color: #00909B;
+  background-color: #F29400;
 }
 #menu2 a:focus,
 #menu2 a:hover,
 #menu2 a:active {
-  background-color: #007C86;
+  background-color: #E75113;
 }
 #meinjrk a:link,
 #meinjrk a:visited {
   margin-left: 2px;
-  background-color: #f29400 !important;
+  background-color: #00909B !important;
 }
 #meinjrk a:focus,
 #meinjrk a:hover,
@@ -270,7 +270,7 @@ select {
 #menu2 > div > ul .current-menu-item a,
 #menu2 > div > ul .current_page_ancestor a {
   color: #FFF;
-  background-color: #007C86 !important;
+  background-color: #E75113 !important;
 }
 #menu2 > div > ul li,
 #menu1 > div > ul li,
@@ -279,7 +279,7 @@ select {
   list-style-type: none;
 }
 #menu2 > div > ul > li:last-child > a {
-  background-color: #F29400;
+  background-color: #00909B;
 }
 /* Untermenü */
 .sub-menu,
@@ -308,10 +308,10 @@ select {
   text-align: center;
   height: 20px;
   width: 90px;
-  background: #007C86;
-  background: -moz-linear-gradient(bottom, #007C86 0%, #00abb9 100%);
-  background: -webkit-linear-gradient(bottom, #007C86 0%, #00abb9 100%);
-  background: linear-gradient(to top, #007C86 0%, #00abb9 100%);
+  background: #D78400;
+  background: -moz-linear-gradient(bottom, #D78400 0%, #ffa10b 100%);
+  background: -webkit-linear-gradient(bottom, #D78400 0%, #ffa10b 100%);
+  background: linear-gradient(to top, #D78400 0%, #ffa10b 100%);
   border-radius: 5px;
   margin: 3px 5px;
   padding: 5px 15px;
@@ -378,14 +378,14 @@ select {
   margin: 0 0 20px 20px;
 }
 .btn p {
-  color: #00909B;
+  color: #F29400;
   float: right;
   margin: 2px;
 }
 .btn a {
   margin-top: 52px;
   margin-right: 3px;
-  color: #00909B;
+  color: #F29400;
   float: left;
 }
 /**************
@@ -441,7 +441,7 @@ a.copyright:hover {
   font-size: 11px;
   line-height: 14px;
   margin: 0;
-  background-color: #00909B;
+  background-color: #F29400;
   padding: 8px 9px 8px 11px;
 }
 .gallery {
@@ -461,7 +461,7 @@ a.copyright:hover {
 }
 #TB_prev a,
 #TB_next a {
-  color: #E1F1F1;
+  color: #FFEBD2;
   text-decoration: none;
 }
 #TB_secondLine {
@@ -482,7 +482,7 @@ a.copyright:hover {
 #searchform input,
 #searchsubmit {
   box-sizing: border-box;
-  border: 1px solid #00909B;
+  border: 1px solid #F29400;
   background-color: #FFF;
   color: #000;
   height: 25px;
@@ -492,12 +492,12 @@ a.copyright:hover {
 }
 input#searchsubmit.button {
   float: right;
-  background-color: #00909B;
+  background-color: #F29400;
   color: #FFF;
 }
 input#searchsubmit.button:hover {
   cursor: pointer;
-  background-color: #007C86;
+  background-color: #D78400;
 }
 /***********************
 **Texttransformationen**
@@ -588,7 +588,7 @@ input#searchsubmit.button:hover {
   #menu2 > div > ul li a {
     width: 40%;
     min-height: 20px;
-    border: 1px solid #007C86;
+    border: 1px solid #D78400;
     line-height: 10px;
     margin: 0;
     padding: 7px 0 2px;
