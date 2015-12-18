@@ -71,11 +71,11 @@ function openPic(url,winName,winParams){
 			<div id="btnGross" class="btn gross">&nbsp;</div>
 			<div id="btnKontrast" class="btn kontrast">&nbsp;</div>
 		</div>
-		<div class="cleaner"></div>	
+		<div class="cleaner"></div>
 		<div id="menu2">
 			<?php wp_nav_menu( array( 'theme_location' => 'menu2' ) ); ?>
 			<?php /*<div id="meinjrk"><a href="http://www.mein-jrk.de/" title="Mein-JRK">mein-jrk.de</a></div>*/?>
-			<?php 
+			<?php
 			$ref_post = empty($post->post_parent) ? $post->ID : $post->post_parent;
  			$children = wp_list_pages('title_li=&child_of='.$ref_post.'&echo=0');
   			if ($children) {
