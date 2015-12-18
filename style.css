@@ -1,7 +1,7 @@
 /*
 Theme Name: JRK Corporate Design
 Description: Jugendrotkreuz Corporate Design
-Version: 1.0
+Version: 1.01
 Author: Sascha Schnetz
 Author URI: www.awaits.eu
 */
@@ -294,7 +294,7 @@ select {
 
 #menu2>div:first-child {
   margin-left: 107px;
-  margin-right: 120px;
+  margin-right: 0px;
 }
 
 #menu2>div>ul li a,
@@ -315,6 +315,10 @@ select {
 .footer_navi>div>ul li {
   display: inline;
   list-style-type: none;
+}
+
+#menu2 > div > ul > li:last-child > a {
+  background-color: #f29400;
 }
 
 
@@ -567,7 +571,7 @@ a.copyright:hover {
   height: 25px;
   font-size: 10px!important;
   margin: 0;
-  padding: 3px;
+  padding: 1px;
 }
 
 input#searchsubmit.button {
